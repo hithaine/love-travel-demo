@@ -57,6 +57,7 @@
 .navbar-menu {
     padding: 5px 10px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .navbar-menu__icon {
