@@ -7,7 +7,7 @@
     <title>Love travel demo</title>
     <link rel="icon" sizes="16x16" href="./assets/img/web-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
@@ -23,6 +23,7 @@
                         <div class="navbar__logo">
                             <img src="./assets/img/logo.png" alt="" class="navbar__img">
                         </div>
+                        <!-- PC NAV  -->
                         <ul class="navbar__list hide-on-tablet-mobile">
                             <li class="navbar__item">
                                 <a href="#" class="navbar__link">HOME</a>
@@ -174,9 +175,159 @@
                                 <a href="#" class="navbar__book btn btn--pink">BOOK NOW</a>
                             </li>
                         </ul>
-                        <div class="navbar-menu">
+
+                        <input type="checkbox" hidden class="mobinav__input" id="mobinav__check">
+
+                        <label for="mobinav__check" class="navbar-menu">
                             <i class="fa-solid fa-bars navbar-menu__icon"></i>
-                        </div>
+                        </label>
+
+                        <label for="mobinav__check" class="mobinav__overlay"></label>
+
+                        <!-- MOBILE NAV  -->
+                        <ul class="mobinav__list">
+                            <label for="mobinav__check" class="mobinav__close">
+                                <i class="fa-solid fa-circle-xmark mobinav__close-icon"></i>
+                            </label>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">HOME</a>
+                            </li>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">PACKAGES</a>
+                                <!-- SUBNAV1 -->
+                                <ul class="mobisubnav__list mobisubnav1">
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Search 1</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Search 2</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Tour Package
+                                            <!-- SUBNAV2 -->
+                                            <ul class="mobisubnav__list mobi-subnav2">
+                                                <li class="mobisubnav__item">
+                                                    <a href="" class="mobisubnav__link">Carousel</a>
+                                                </li>
+                                                <li class="mobisubnav__item">
+                                                    <a href="" class="mobisubnav__link">Custom Map</a>
+                                                </li>
+                                                <li class="mobisubnav__item">
+                                                    <a href="" class="mobisubnav__link">360° Panorama</a>
+                                                </li>
+                                                <li class="mobisubnav__item">
+                                                    <a href="" class="mobisubnav__link">Default</a>
+                                                </li>
+                                            </ul>
+                                        </a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Destination</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Typology</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">SHOP</a>
+                                <!-- SUBNAV1 -->
+                                <ul class="mobisubnav__list mobi-subnav1">
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Archive</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Single Product</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Cart</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Checkout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">ABOUT US</a>
+                                <!-- SUBNAV1 -->
+                                <ul class="mobisubnav__list mobi-subnav1">
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">About us</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">About us 2</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">About us 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">PAGES</a>
+                                <!-- SUBNAV1 -->
+                                <ul class="mobisubnav__list mobi-subnav1">
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Services</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Agency Tour</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Testimonials</a>
+                                    <li class="mobisubnav__item">
+                                            <a href="" class="mobisubnav__link">Prices</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                            <a href="" class="mobisubnav__link">Promotions</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Faq</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Comming Soon</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">NEWS</a>
+                                <!-- SUBNAV1 -->
+                                <ul class="mobisubnav__list mobi-subnav1">
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Archive</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Single Post</a>
+                                        <!-- SUBNAV2 -->
+                                        <ul class="mobisubnav__list mobi-subnav2">
+                                            <li class="mobisubnav__item">
+                                                <a href="" class="mobisubnav__link">Full Width</a>
+                                            </li>
+                                            <li class="mobisubnav__item">
+                                                <a href="" class="mobisubnav__link">Right Sidebar</a>
+                                            </li>
+                                            <li class="mobisubnav__item">
+                                                <a href="" class="mobisubnav__link">Left Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">CONTACT</a>
+                                <!-- SUBNAV1 -->
+                                <ul class="mobisubnav__list mobi-subnav1">
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Contact 1</a>
+                                    </li>
+                                    <li class="mobisubnav__item">
+                                        <a href="" class="mobisubnav__link">Contact 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mobinav__item">
+                                <a href="#" class="mobinav__link">BOOK NOW</a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
             </div>

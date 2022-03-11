@@ -130,6 +130,72 @@
     height: 100%;
 }
 
+.mobinav__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+}
+
+.mobinav__list {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 310px;
+    background-color: #555555;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 70px 40px;
+    overflow-y: auto;
+    transform: translateX(100%);
+}
+
+.mobinav__list::-webkit-scrollbar {
+    display: none;
+}
+
+.mobinav__link {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: 0.03rem;
+    display: block;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.mobisubnav__list {
+    list-style: none;
+}
+
+.mobisubnav__link {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.35rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    display: block;
+    line-height: 35px;
+}
+
+.mobinav__close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: var(--white-color);
+    font-size: 30px;
+    padding: 7px;
+    z-index: 1;
+    cursor: pointer;
+}
+
 .theme {
     margin-top: calc(0px - var(--header-height));
 }
