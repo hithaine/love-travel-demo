@@ -21,13 +21,13 @@
 /* TABLET */
 @media (min-width: 740px) and (max-width: 1023px) {
     :root {
-        --header-height: 126px;
+        --header-height: 96px;
     }
 }
 
 /* MOBILE */
 @media (max-width: 739px) {
     :root {
-        --header-height: 88px;
+        --header-height: 76px;
     }
 }
