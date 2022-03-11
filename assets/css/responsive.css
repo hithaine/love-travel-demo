@@ -16,6 +16,10 @@
         transform: translateX(0);
         opacity: 1;
     }
+
+    .theme__container {
+        padding: 30% 8% 0;
+    }
 }
 
 /* TABLET */

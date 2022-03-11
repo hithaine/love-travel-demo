@@ -2,6 +2,8 @@
     --text-color: #333;
     --black-color: #000;
     --white-color: #fff;
+    --gray-color: #7e7b7b;
+    --pink-color: #ba71da;
     --header-height: 104px;
     --navbar-height: 64px;
     --nav-radius: 4px;
@@ -59,7 +61,25 @@ html {
 }
 
 .btn--pink {
-    background-color: #ba71da;
+    background-color: var(--pink-color);
+}
+
+.underline {
+    position: relative;
+    z-index: 1;
+}
+
+.underline--pink::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    height: 6px;
+    background-color: var(--pink-color);
+    z-index: 0;
 }
 
 @keyframes fade{
