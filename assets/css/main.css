@@ -138,6 +138,7 @@
     left: 0;
     background-color: rgba(0,0,0,0.3);
     display: none;
+    animation: fade linear 0.2s;
 }
 
 .mobinav__list {
@@ -153,6 +154,8 @@
     padding: 0 20px 70px 40px;
     overflow-y: auto;
     transform: translateX(100%);
+    opacity: 0;
+    transition: all linear 0.2s;
 }
 
 .mobinav__list::-webkit-scrollbar {

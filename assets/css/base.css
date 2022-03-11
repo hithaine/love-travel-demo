@@ -61,3 +61,12 @@ html {
 .btn--pink {
     background-color: #ba71da;
 }
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
