@@ -213,7 +213,8 @@
 .theme {
     background: no-repeat center url('../img/theme1.jpg');
     width: 100%;
-    height: 120vh;
+    height: 130vh;
+    filter: grayscale(30%);
 }
 
 .theme__container {
@@ -311,7 +312,7 @@
 
 .theme__item {
     color: var(--white-color);
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.4);
     font-size: 3rem;
     width: 95px;
     height: 95px;

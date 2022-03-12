@@ -19,7 +19,7 @@
     }
 
     .theme {
-        height: unset;
+        height: 200vh;
     }
 
     .theme__container {
