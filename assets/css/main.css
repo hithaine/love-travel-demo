@@ -1,3 +1,7 @@
+.app{
+    overflow: hidden;
+}
+
 .header {
     height: var(--header-height);
     background-color: rgba(0,0,0,0.2);
@@ -205,7 +209,7 @@
 }
 
 .theme {
-    background: no-repeat center url("/assets/img/theme1.jpg");
+    background: no-repeat center url(/assets/img/theme1.jpg);
     width: 100%;
 }
 
