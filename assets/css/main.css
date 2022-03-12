@@ -209,7 +209,7 @@
 }
 
 .theme {
-    background: no-repeat center url(/assets/img/theme1.JPG);
+    background: no-repeat center url('../img/theme1.jpg');
     width: 100%;
 }
 
