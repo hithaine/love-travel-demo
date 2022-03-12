@@ -1,5 +1,5 @@
 .app{
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .header {
@@ -7,7 +7,7 @@
     background-color: rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
     position: relative;
     top:0;
     right: 0;
@@ -144,6 +144,7 @@
     background-color: rgba(0,0,0,0.3);
     display: none;
     animation: fade linear 0.2s;
+    z-index: 2;
 }
 
 .mobinav__list {
@@ -161,6 +162,7 @@
     transform: translateX(100%);
     opacity: 0;
     transition: all linear 0.2s;
+    z-index: 3;
 }
 
 .mobinav__list::-webkit-scrollbar {
@@ -211,6 +213,7 @@
 .theme {
     background: no-repeat center url('../img/theme1.jpg');
     width: 100%;
+    height: 100vh;
 }
 
 .theme__container {
@@ -243,19 +246,57 @@
     justify-items: center;
     font-size: 1.5rem;
     margin-top: 35px;
-    padding: 14px 20px;
+    padding: 13px 20px;
     text-align: left;
     height: 43px;
     min-width: 330px;
+    position: relative;
 }
 
+
 .search-bar__des {
+    color: var(--gray-color);
     margin-left: 15px;
+    height: 40px;
 }
 
 .search-bar__icon {
-    float: right;
     margin-right: 10px;
+    float: right;
+}
+
+.search-bar__list {
+    list-style: none;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 103%;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    margin: 0;
+    padding-left: 0;
+    display: none;
+}
+
+#search-bar__check:checked ~ .search-bar__list {
+    display: block; 
+}
+
+.search-bar__item {
+    height: 30px;
+    color: var(--gray-color);
+}
+
+.search-bar__item:hover {
+    background-color: rgb(25, 130, 228);
+    color: var(--white-color);
+}
+
+.search-bar__link {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    padding: 6px 20px;
 }
 
 .theme__list {

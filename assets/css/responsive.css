@@ -1,5 +1,6 @@
 /* MOBILE AND TABLET */
 @media (max-width: 1023px) {
+
     .hide-on-tablet-mobile {
         display: none;
     }
@@ -17,8 +18,20 @@
         opacity: 1;
     }
 
+    .theme {
+        height: unset;
+    }
+
     .theme__container {
         padding: 30% 8% 0;
+    }
+
+    .search-bar__item {
+        height: 44px;
+    }
+
+    .search-bar__link {
+        padding: 12px 20px;
     }
 }
 
@@ -33,5 +46,9 @@
 @media (max-width: 739px) {
     :root {
         --header-height: 76px;
+    }
+
+    .app {
+        overflow: hidden;
     }
 }
