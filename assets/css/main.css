@@ -340,7 +340,7 @@
 }
 
 .content {
-    padding: 35px 0 60px;
+    padding: 30px 0 55px;
 }
 
 .content__box-hdg {
@@ -352,6 +352,7 @@
     font-weight: 300;
     color: #555;
     letter-spacing: 0.15rem;
+    margin-bottom: 25px;
 }
 
 .content__hdg {
@@ -359,6 +360,9 @@
     color: #333;
     font-weight: 800;
     letter-spacing: 0.1rem;
+    margin-top: 30px;
+    padding-bottom: 25px;
+    opacity: 0.9;
 }
 
 .section__item {
