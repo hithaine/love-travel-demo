@@ -207,12 +207,9 @@
 }
 
 .theme {
-    margin-top: calc(0px - var(--header-height));
-}
-
-.theme {
     background: no-repeat center/ cover url('../img/theme1.jpg');
     filter: grayscale(30%);
+    margin-top: calc(0px - var(--header-height));
 }
 
 .theme__container {
@@ -417,7 +414,6 @@
     justify-content: center;
     opacity: 0;
     transition: opacity linear 0.3s;
-    height: 100%;
 }
 
 .section__btn {
@@ -446,4 +442,26 @@
 
 .section__btn {
     margin-top: 15px;
+}
+
+.mark {
+    background: no-repeat center/ cover url('../img/mark1.jpg');
+    height: 235px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.mark__hdg {
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--white-color);
+    margin: 0;
+    letter-spacing: 0.05rem;
+    line-height: 50px;
+}
+
+.mark__btn {
+    letter-spacing: 0.1rem;
+    color: #f76570;
 }

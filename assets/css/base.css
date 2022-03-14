@@ -63,6 +63,7 @@ html {
     letter-spacing: 0.05rem;
     text-decoration: none;
     cursor: pointer;
+    display: inline-block;
 }
 
 .btn--pink {
@@ -73,6 +74,13 @@ html {
     width: fit-content;
     padding: 7px 18px;
     height: 30px;
+}
+
+.btn--big {
+    height: 44px;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    padding: 14px 35px;
 }
 
 .u {
@@ -99,6 +107,10 @@ html {
 
 .u--blue.u--base::after {
     background-color: #14b9d5;
+}
+
+.u--orange.u--base::after {
+    background-color: #f76570;
 }
 
 @keyframes fade{

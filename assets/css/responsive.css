@@ -30,6 +30,14 @@
     .search-bar__link {
         padding: 12px 20px;
     }
+
+    .mark {
+        height: 321px;
+    }
+
+    .mark__btn {
+        margin-top: 40px;
+    }
 }
 
 /* TABLET */
