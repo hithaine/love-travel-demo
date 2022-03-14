@@ -58,10 +58,21 @@ html {
     padding: 10px 15px;
     height: 36px;
     min-width: 110px;
+    background-color: var(--white-color);
+    font-size: 1.35rem;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .btn--pink {
     background-color: var(--pink-color);
+}
+
+.btn--small {
+    width: fit-content;
+    padding: 7px 18px;
+    height: 30px;
 }
 
 .u {
