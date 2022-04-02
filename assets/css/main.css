@@ -351,7 +351,7 @@
 }
 
 .content__hdg {
-    font-size: 3.2rem;
+    font-size: 3.4em;
     color: #333;
     font-weight: 800;
     letter-spacing: 0.1rem;
@@ -450,6 +450,7 @@
     display: flex;
     text-align: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .mark__hdg {
@@ -464,4 +465,15 @@
 .mark__btn {
     letter-spacing: 0.1rem;
     color: #f76570;
+}
+
+.beaches .content__box-hdg {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.content__intro {
+    font-size: 1.45rem;
+    color: #555;
+    line-height: 2.5rem;
 }
