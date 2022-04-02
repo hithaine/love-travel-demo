@@ -4,6 +4,7 @@
     --white-color: #fff;
     --gray-color: #7e7b7b;
     --pink-color: #ba71da;
+    --blue-color: #14b9d5;
     --header-height: 104px;
     --navbar-height: 64px;
     --nav-radius: 4px;
@@ -50,7 +51,7 @@ html {
 }
 
 .tag--best {
-    background-color: #14b9d5;
+    background-color: var(--blue-color);
 }
 
 .btn {
@@ -64,10 +65,16 @@ html {
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
+    color: var(--white-color);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn--pink {
     background-color: var(--pink-color);
+}
+
+.btn--green {
+    background-color: #1bbc9b;
 }
 
 .btn--small {
@@ -111,6 +118,24 @@ html {
 
 .u--orange.u--base::after {
     background-color: #f76570;
+}
+
+.price__box {
+    font-size: 1.35rem;
+    letter-spacing: 0.1rem;
+    margin: 30px 0;
+    color: var(--text-color);
+}
+
+.price {
+    font-size: 2.8rem;
+    margin-right: 4px;
+}
+
+.price--unset {
+    text-decoration: line-through;
+    color: rgb(165, 164, 164);
+    margin-right: 4px;
 }
 
 @keyframes fade{
