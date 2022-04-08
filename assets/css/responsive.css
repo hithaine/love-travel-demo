@@ -90,4 +90,8 @@
     .beaches__img {
         height: 231px;
     }
+
+    .beaches__time-num {
+        font-size: 3rem;
+    }
 }
