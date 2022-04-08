@@ -52,6 +52,17 @@
         left: 0;
         top: 100%;
     }
+
+    .beaches__time-num {
+        font-size: 3rem;
+    }
+
+    .beaches__time-word {
+        font-size: 1.1rem;
+    }
+    .more {
+        margin-top: 110px;
+    }
 }
 
 /* TABLET */
@@ -91,7 +102,11 @@
         height: 231px;
     }
 
-    .beaches__time-num {
-        font-size: 3rem;
+    .beaches__time-box::after{
+        right: -20%;
+    }
+
+    .more__item {
+        margin-right: 30px;
     }
 }

@@ -474,7 +474,7 @@
 
 .content__intro {
     font-size: 1.45rem;
-    color: #555;
+    color: #888;
     line-height: 2.5rem;
 }
 
@@ -536,4 +536,43 @@
     flex-basis: 50%;
     margin-bottom: 15px;
     letter-spacing: 0.1rem;
+}
+
+.more__list {
+    display: flex;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.more__img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+}
+
+.more__hdg {
+    font-size: 2.35rem;
+    letter-spacing: 0.15rem;
+    color: #555;
+}
+
+.more__item {
+    padding-left: 70px;
+}
+
+.more__des {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: #888;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.more__btn {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: var(--blue-color);
+    padding: 13px 0;
+    cursor: pointer;
 }
