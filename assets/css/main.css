@@ -576,3 +576,45 @@
     padding: 13px 0;
     cursor: pointer;
 }
+
+.discover {
+    height: 269px;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover__title {
+    font-size: 1.35rem;
+    letter-spacing: 0.15rem;
+    margin-bottom: 0;
+}
+
+.discover__hdg {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    margin: 25px auto;
+}
+
+.discover__btn {
+    width: 130px;
+    margin: 15px 0;
+}
+
+.discover1 {
+    background: no-repeat center/ cover url(../img/discover1.jpg);
+}
+
+.discover2 {
+    background: no-repeat center/ cover url(../img/discover2.jpg);
+}
+
+.discover__btn1 {
+    color: #f3abae;
+}
+
+.discover__btn2 {
+    color: #64bca8;
+}
