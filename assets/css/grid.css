@@ -9,6 +9,11 @@
     margin: 0 auto;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;

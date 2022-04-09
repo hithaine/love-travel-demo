@@ -538,6 +538,10 @@
     letter-spacing: 0.1rem;
 }
 
+.more > .row {
+    padding-left: 0;
+}
+
 .more__list {
     display: flex;
     position: relative;
@@ -575,6 +579,10 @@
     color: var(--blue-color);
     padding: 13px 0;
     cursor: pointer;
+}
+
+.discover__box {
+    display: flex;
 }
 
 .discover {
@@ -709,11 +717,19 @@
     padding: 3px 5px 3px 0
 }
 
-
 .package__des {
     font-size: 1.45rem;
     letter-spacing: 0.1rem;
     color: #888;
     line-height: 2.5rem;
     margin: 20px 0;
+}
+
+.footer {
+    background: no-repeat center/ cover url(../img/footer.jpg);
+    text-align: left;
+}
+
+.footer .content__box-hdg {
+    text-align: left;
 }

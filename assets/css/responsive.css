@@ -44,10 +44,6 @@
         margin-top: 40px;
     }
 
-    .beaches {
-        margin: 0 30px;
-    }
-
     .beaches__img {
         margin-left: 0;
     }
@@ -67,11 +63,8 @@
     }
 
     .more {
-        margin: 110px 8% 40px 0;
-    }
-
-    .package {
-        margin: 0 8%;
+        margin: 110px 0 40px;
+        padding-left: 0;
     }
 
     .package__more >a:nth-child(1) {
@@ -102,6 +95,10 @@
 @media (max-width: 739px) {
     :root {
         --header-height: 76px;
+    }
+
+    .padding-mobile {
+        padding: 0 8%;
     }
 
     .app {
