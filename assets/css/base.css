@@ -101,6 +101,10 @@ html {
     background-color: #f76570;
 }
 
+.btn--blue {
+    background-color: var(--blue-color);
+}
+
 .btn--small {
     width: fit-content;
     padding: 7px 18px;
