@@ -618,3 +618,69 @@
 .discover__btn2 {
     color: #64bca8;
 }
+
+.package__img {
+    width: 100%;
+    padding-top: 60%;
+    border: 1px solid #f1f1f1;
+}
+
+.package__info {
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+}
+
+.package__img1 {
+    background: no-repeat center/ cover url(../img/package1.jpg);
+}
+
+.package__img2 {
+    background: no-repeat center/ cover url(../img/package2.jpg);
+}
+
+.package__img3 {
+    background: no-repeat center/ cover url(../img/package3.jpg);
+}
+
+.package__name {
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    margin-bottom: 10px;
+}
+
+.package__location {
+    font-size: 1.5rem;
+    color: var(--des-color);
+    letter-spacing: 0.12rem;
+    margin-bottom: 15px;
+}
+
+.package__more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.package__info .price__box {
+    margin: 25px 0;
+}
+
+.package__more >a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    color: var(--text-color);
+    display: inline-flex;
+    padding: 3px 5px 3px 0
+}
+
+
+.package__des {
+    font-size: 1.45rem;
+    letter-spacing: 0.1rem;
+    color: #888;
+    line-height: 2.5rem;
+    margin: 20px 0;
+}
