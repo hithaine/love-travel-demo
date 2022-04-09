@@ -628,6 +628,7 @@
 .package__info {
     padding: 30px;
     border: 1px solid #f1f1f1;
+    margin-bottom: 30px;
 }
 
 .package__img1 {
@@ -664,7 +665,7 @@
 }
 
 .package__info .price__box {
-    margin: 25px 0;
+    margin: 25px;
 }
 
 .package__more >a{

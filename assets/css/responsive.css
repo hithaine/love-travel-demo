@@ -4,6 +4,11 @@
     .hide-on-tablet-mobile {
         display: none;
     }
+
+    .price--left-m {
+        justify-content: left;
+    }
+
     .navbar__container {
         padding: 0 50px;
     }
@@ -60,8 +65,21 @@
     .beaches__time-word {
         font-size: 1.1rem;
     }
+
     .more {
-        margin-top: 110px;
+        margin: 110px 8% 40px 0;
+    }
+
+    .package {
+        margin: 0 8%;
+    }
+
+    .package__more >a:nth-child(1) {
+        margin-top: 12px;
+    }
+
+    .package__info .price__box {
+        margin: 15px 0;
     }
 }
 
@@ -104,9 +122,5 @@
 
     .beaches__time-box::after{
         right: -20%;
-    }
-
-    .more__item {
-        margin-right: 30px;
     }
 }
