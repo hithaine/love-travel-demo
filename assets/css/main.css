@@ -749,7 +749,8 @@
     -webkit-appearance: none;
     border: 1px solid #f1f1f1;
     font-size: 1.5rem;
-    padding: 8px 15px;
+    height: 44px;
+    padding: 0 15px;
     line-height: 2.5rem;
     color: var(--text-color);
     margin-bottom: 8px;
@@ -811,4 +812,56 @@
 
 .copyright__text:last-child {
     text-align: right;
+}
+
+.ticket {
+    position: fixed;
+    z-index: 1;
+    width: 65px;
+    height: 65px;
+    background-color: #555555;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+}
+
+.ticket__num {
+    color: var(--white-color);
+    font-size: 2.4rem;
+    position: absolute;
+    bottom: 17px;
+    right: 17px;
+}
+
+.ticket__icon {
+    color: var(--white-color);
+    font-size: 0.8rem;
+    position: absolute;
+    top: 21px;
+    left: 14px;
+}
+
+.ticket__box {
+    width: 35px;
+    height: 35px;
+    background-color: #555555;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+}
+
+.ticket__box i {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+.ticket__tag {
+    position: absolute;
+    top: 0;
+    font-size: 0.8rem;
+    right: 3px;
+    left: 3px;
 }
