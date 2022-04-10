@@ -111,6 +111,10 @@
         text-align: left;
     }
 
+    .ticket {
+        display: none;
+    }
+
 }
 
 /* TABLET */
