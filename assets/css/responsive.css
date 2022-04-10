@@ -74,6 +74,42 @@
     .package__info .price__box {
         margin: 15px 0;
     }
+
+    .footer .content {
+        padding: 0;
+    }
+
+    .input {
+        margin-top: 10px;
+    }
+
+    .contact__des,
+    .contact__item {
+        font-size: 1.35rem;
+    }
+
+    .contact__icon {
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    .contact__item:first-child {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .contact__item:last-child {
+        margin-bottom: 20px;
+    }
+
+    .copyright {
+        font-size: 1.1rem;
+    }
+
+    .copyright__text:last-child {
+        text-align: left;
+    }
+
 }
 
 /* TABLET */

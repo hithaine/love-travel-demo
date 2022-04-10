@@ -32,6 +32,10 @@ html {
     border-bottom-right-radius: var(--nav-radius);
 }
 
+.mb-16 {
+    margin-bottom: 16px;
+}
+
 .tag {
     min-width: 36.2px;
     font-size: 1rem;
